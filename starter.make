@@ -8,11 +8,13 @@ core = 8.x
 ; projects[devel][download][url] = http://git.drupal.org/project/devel.git
 ; projects[devel][download][branch] = 8.x-1.x
 
+projects[config_devel][type] = module
 projects[config_devel][subdir] = contrib
 projects[config_devel][download][type] = git
 projects[config_devel][download][url] = http://git.drupal.org/project/config_devel.git
 projects[config_devel][download][branch] = 8.x-1.x
 
+projects[article][type] = module
 projects[article][subdir] = custom
 projects[article][download][type] = git
 projects[article][download][url] = https://github.com/nuvoleweb/d8-article.git
